@@ -8,5 +8,5 @@ metadata:
     version: v1
 spec:
   containers:
-  - name: first_error
+  - name: first-error
     image: nginnnnnnnnnnnnnnnnnnnnx
