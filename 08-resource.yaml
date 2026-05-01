@@ -8,7 +8,7 @@ metadata:
 spec:
   containers:
     - name: nginx
-      image: mginx
+      image: nginx
       resources:
         requests:
           memory: "68Mi"
