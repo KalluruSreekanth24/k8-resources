@@ -7,7 +7,7 @@ metadata:
     component: frontend
     environment: dev
     purpose: node-port
-  spec:
-    containers:
-    - name: nginx
-      image: ngnix
+spec:
+  containers:
+  - name: nginx
+    image: ngnix
