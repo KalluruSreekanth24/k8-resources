@@ -9,8 +9,8 @@ spec:
     component: frontend
     environment: dev 
     purpose: load-balancer 
-ports:
-  - protocol: TCP
-    port: 80
-    targetPort: 80
-    nodePort: 30007
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80
+      nodePort: 30007
