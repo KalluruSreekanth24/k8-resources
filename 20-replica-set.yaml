@@ -11,12 +11,12 @@ spec:
     matchLabels:
       purpose: teach
       project: robo
-template:
-  metadata:
-    labels:
-      purpose: teach
-      project: robo
-  spec:
-    containers:
-      - name: nginx
-        image: nginx:trixie-perl
+  template:
+    metadata:
+      labels:
+        purpose: teach
+        project: robo
+    spec:
+      containers:
+        - name: nginx
+          image: nginx:trixie-perl
