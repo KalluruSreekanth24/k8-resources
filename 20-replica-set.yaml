@@ -11,7 +11,7 @@ spec:
     matchLabels:
       purpose: teach
       project: robo
-templates:
+template:
   metadata:
     labels:
       purpose: teach
